@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    position:relative;
+    background-color: #222222;
+    justify-content: space-between;
+}
+
+.logos {
+    display: flex;
+    text-align: center;
+   
+    
+
+    
+
+
+}
+
+.nav {
+   
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    
+
+
+}
+.nav-header {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.lista-nav {
+    display: flex;
+    flex-flow: row nowrap;
+  
+}
+
+.footer {
+    background-color: #222222;
+}
