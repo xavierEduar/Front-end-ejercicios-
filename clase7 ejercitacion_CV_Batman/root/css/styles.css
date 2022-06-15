@@ -1,0 +1,147 @@
+/*Banner*/
+.body {
+    position:absolute;
+    margin-left: 12%;
+    margin-right: 12%;
+
+}
+.header-logo {
+    position: absolute;
+    width: 1440px;
+    height: 188.19px;
+    left: 0px;
+    top: 0px;
+    background-color: #E6E6E6;
+    }
+
+/*Imagen CV */
+
+.logo-Batman {
+    position: absolute;
+    width: 100px;
+    height: 146px;
+    left:570px;
+    top: 20.91px;
+    }
+
+
+/*Background titulo Curriculum */
+
+.title-background {
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    top: 188px;
+    background: #C4C4C4;
+    }
+
+.title-CV-Batman {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 29.64%;
+    color: #005677;
+    }
+
+.personal-information {
+    position: absolute;
+    width: 1440px;
+    height: 30px;
+    left: 0px;
+    top: 376px;
+    }
+    
+.academic-training {
+    position: absolute;
+    width: 1440px;
+    height: 30px;
+    left: 0px;
+    top: 518px;
+    }
+    
+.work-experience {
+    position: absolute;
+    width: 1440px;
+    height: 30px;
+    left: 0px;
+    top: 695px;
+    }   
+    
+.subtitle-background {
+    background: #C4C4C4;
+    }
+
+.subtitle {
+    width: 395.62px;
+    height: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 84.69%;
+    color: #005677;
+    }
+
+.subtitle-center {
+    margin-left: 15px;
+    margin-top: 7px;
+    }
+
+.text-weight {
+    font-weight: bold;
+    } 
+
+.text-style{
+    font-style: italic;
+}    
+
+.non-vignette{
+    list-style-type: none;
+}    
+    
+.footer-background{
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 1000px;
+    background-color: #005677;
+    }
+
+.title-footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29.64%;
+    color: #ffffff;
+}  
+
+.title-footer-position{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: 480px;
+    top: 30px;
+}
+
+/*Links redes sociales*/
+
+.icon-instagram {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 650px;
+    top: 20px;
+    }
+
+  .icon-linkedin {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 680px;
+    top: 20px;
+    }
