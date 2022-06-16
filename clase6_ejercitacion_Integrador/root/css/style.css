@@ -1,8 +1,52 @@
- cat {
-    position: absolute;
-    width: 15.68px;
-    height: 13.12px;
-    left: 40px;
-    top: 43px;
+* body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+.section-top-derechos {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F3F3F3;
+    background: #222222;
+    
+
+}
+
+.fondo-plato {
+    position: relative;
+    width: auto;
+    height: 409px;
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+ 
+}
+.text-plato {
+    position: absolute;
+    right: 10px;
+    bottom: 120px;
+}
+.text-p {
+    
+
+font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+text-align: center;
+color: #3C2313;
+}
+
+.der-reservados {
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-align: center;
+  
 }
