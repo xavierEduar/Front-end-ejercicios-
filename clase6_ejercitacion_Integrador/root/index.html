@@ -6,96 +6,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petshop</title>
+    <title>Petshop-Xavier</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>   
     <header>
 
-        <section class="section-top-derechos">
-            <div>Grandes ofertas en comederos</div>
-            <div>Español </div>
-            <div>ARG$ </div>
-        </section>
-
-        <section>
-
-            <div>
-                <img src="./img/Logo.png" alt="Logo de la página">
+        <div class="header-one">
+            <div class="ofertas-en-comederos">
+                <a href="" class="" >Grandes ofertas en comederos</a>
             </div>
+            <div class="idioma-moneda">
+                <a href="" class="a-header-one">Español</a>
+                <a href="" class="a-header-one">ARG$</a>
+            </div>
+        </div>
 
+        <section class="header-two">
             <div>
-                <nav>
-                    <ul>
-                        <li>Categorias</li>
-                        <li>Pets</li>
-                        <li>Nosotros</li>
-                         <li>Contactanos</li>
+                <img class="logo-header" src="./img/Logo.png" alt="Logo de la página">
+            </div>
+            <div class="header-nav-two">
+                <nav class="nav-two">
+                    <ul class="lista">
+                        <li class="li-header">
+                            <a href=""><img src="./img/pawprint white.png" alt="">Categorias</a>
+                        </li>
+                        <li class="li-header">
+                            <a href=""><img src="./img/pawprint white.png" alt="">Pets</a>
+                        </li>
+                        <li class="li-header">
+                            <a href=""><img src="./img/pawprint white.png" alt="">Nosotros</a>
+                        </li>
+                        <li class="li-header">
+                            <a href=""><img src="./img/pawprint white.png" alt="">Contactanos</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
-            
         </section>
 
     </header>
 
     <main>
-        <section class="fondo-plato"> <!--fondo con background-image y acomodo el div con z index-->
-           <div class="text-plato">
-                <h2>Es un placer tenerte aquí!</h2>
-                <p class="text-p">¡Comederos en descuento!</p>
-                <a href="">Comederos</a>
+        <section class="fondo-plato">
+             <!--fondo con background-image y acomodo el div con z index-->
+           <div class="texto-plato">
+
+                <p class="es-un-placer">Es un placer tenerte aquí!</p>
+                <p class="descuentos">¡Comederos en descuento!</p>
+                <a class="comederos" href="">COMEDEROS</a>
            </div>
 
         </section>
 
-        <section><!--3div que centro en el medio uno abajo del otro-->
+        <section class="seccion-1"> <!--3div que centro en el medio uno abajo del otro--> 
+             
+            <img class="" src="./img/pawprint 1.png">
+            <h2 class="">Productos Destacados</h2>
+            <div class="nav-seccion-1">
+                <a href="">Comederos</a>
+                <p>-</p>
+                <a href="">Accesorios</a>
+                <p>-</p>
+                <a href="">Comida</a>
+            </div>
+        </section>
+
+        <section class="seccion-2">
             
-            <div><img src="./img/pawprint 1.png"></div>
-            <div><h2>Productos Destacados</h2></div>
-            <div><p>Comederos - Acesorios  - Comida</p></div>
+            <div class="card">
+                <a class="card-a" href=""><img src="./img/churrasquito.png"></a>
+                <a class="card-a" href="">Juguete churrasquito</a>
+                <p class="card-p">$250</p>
+            </div>
+
+            <div class="card">
+                <a class="card-a" href=""><img src="./img/comedero.png"></a>
+                <a class="card-a" href="">Comedero para perros</a>
+                <p class="card-p">$250</p>
+            </div>
+
+            <div class="card">
+                <a class="card-a" href=""><img src="./img/Huesito.png"></a>
+                <a class="card-a" href="">Juguete huesito</a>
+                <p class="card-p">$650</p>
+            </div>
 
         </section>
 
-        <section><!--3 divs en line-->
+        <section class="seccion-3"><!--Formulario ver, centrar todas las cajas-->
             <div>
-                <img src="./img/churrasquito.png">
-                <div>
-                    <p>Juguete Churrasquito</p>
-                    <p>$150</p>
-                </div>
-
+               <h2 class="sec-3-h2">Contáctanos</h2>
+               <form class="form" action="" method="POST">
+                <input class="input" type="text" placeholder="Nombre y apellido">
+                <input class="input" type="text" placeholder="Ingresa tu correo electrónico">
+                <input class="input" type="text" placeholder="Teléfono">
+               </form>
             </div>
-
-            <div>
-                <img src="./img/comedero.png">
-                <div>
-                    <p>Comedero para perro</p>
-                    <p>$250</p>  
-                </div>
-            </div>
-            <div>
-                <img src="./img/Huesito.png">
-                <div>
-                    <p>Juguete Huesito</p>
-                    <p>$650</p>
-                </div>
+            <div class="sec-3-button">
+                <button class="button-reset" type="reset">Resetear</button>
+                <button class="button-submit" type="submit">Enviar</button>
             </div>
         </section>
-        <section><!--Formulario ver, centrar todas las cajas-->
-            <div>
-                <h3>Contáctanos</h3>
-                <div>
-                    <form action=""></form>
-                    <form action=""></form>
-                    <form action=""></form>
-                    <button>Resetear</button>
-                    <button>Enviar</button>
-                </div>
-            </div>
-        </section>
-        <section><!--seccion subcritete llenar-->
+
+        <section class="seccion-4-subcribete"><!--seccion subcritete llenar-->
             <div>
                 <img src="" alt="">
                 <p>Suscríbete para más novedades</p>

@@ -1,46 +1,232 @@
-* body {
-    margin-left: 10%;
-    margin-right: 10%;
+/*Estilos diseño Web*/
+* {
+  margin: 0;
+  padding: 0;
 }
+/**********************header*************************/
+    .header-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222222;
+    width: 100%;
+    height: 20px;
+    }
+            .header-one a { /*tipografia de a*/
+                color: #ffffff;
+                text-decoration: none;
+                font-family: 'Roboto';
+                font-size: 12px;
+            }
+            .ofertas-en-comederos {
+                display: flex;
+                width: 50%;
+            }
+            .idioma-moneda {
+                 display: flex; 
+                 justify-content: space-between;
+                width: 100px;  
+            }
 
-.section-top-derechos {
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    color: #F3F3F3;
-    background: #222222;
-    
+    .header-two {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height:10vh;
+        background-color: #F0A83E;
+    }
+            .header-nav-two {
+                display: flex;
+                width: 30%;
+                justify-content: space-around;
 
-}
+            }
+            .header-nav-two nav ul li {
+                display: flex;
+                display: inline;
+                text-decoration: none;
+                list-style:none;
+                font-family: Roboto;
+            }
+            .li-header {
+                display: flex;
+                justify-content: space-around;
+                margin: 10px;
+            }
+a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+            }
 
+     .logo-header {
+        display: flex;
+        margin: 20px;
+     }       
+           
+/**********************main**************************/
 .fondo-plato {
+    display: flex;
     position: relative;
-    width: auto;
-    height: 409px;
+    width: 100%;
+    height: 450px;
     background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
- 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
-.text-plato {
+
+.texto-plato {
     position: absolute;
-    right: 10px;
-    bottom: 120px;
-}
-.text-p {
-    
-
-font-family: 'Roboto';
-font-style: normal;
-font-size: 16px;
-text-align: center;
-color: #3C2313;
+    right: 20px;
+    bottom: 100px;
+    text-align: center;
+    flex-direction: column;
+    margin: 5px;
 }
 
+.es-un-placer {
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.descuentos {
+    font-family: Roboto,Oxygen, Ubuntu, Cantarell;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.comederos {
+    font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont;
+    font-size: 25px;
+    color: white;
+    background-color: #F0A83E;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/****************Section-1**************/
+.seccion-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+
+h2 {
+    font-family:Roboto,system-ui, -apple-system;
+    font-size: 45px;
+    color: #3C2313;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-seccion-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.nav-seccion-1 a {
+    color: black;
+    text-decoration: none;
+    font-family: ROboto,system-ui, -apple-system;
+}
+/**********************seccion-2******************/
+.seccion-2{
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.card {
+    display: flex;
+    align-items: center;/*en la direccion de column que esten en el centro*/
+    flex-direction: column; /**la direccion de acomodado es en column**/
+    background-color: #FBFAF6;
+    font-family: Roboto,system-ui, -apple-system;
+    margin: 30px;
+}
+.card-a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.card-p {
+    color: #F0A83E;
+    font-weight: bold;
+}
+/*********************section-3**********************************/
+.seccion-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-3-h2 {
+    text-align: center;
+    font-family:Roboto,system-ui, -apple-system;
+    font-size: 30px;
+    color: #3C2313;
+
+}
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 220px;
+    margin: 25px;
+}
+.input {
+    background-color: #3C2313;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    margin: 10px;
+    height: 60px;
+    width: 450px;
+}
+.sec-3-button {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 20px;
+
+}
+.button-reset {
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+    background-color: #8A8787;
+    border-radius: 20px;
+    border: none;
+}
+.button-submit {
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+    background-color: #F0A83E;
+    border-radius: 20px;
+    border: none;
+}
+
+/*****************************footer**********************/
 .der-reservados {
-    
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -48,5 +234,4 @@ color: #3C2313;
     line-height: 12px;
     color: #FFFFFF;
     text-align: center;
-  
 }
