@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <section>
+        <h3>Registrarse</h3>
+        <p>Es rápido y fácil</p>
+
+        <!--Formulario-->
+
+        <form action="./data/form.php" method="POST">   <!-- no puede faltar en form el action y method-->
+
+            <label for="nombre">Nombre:</label> <!--es el titulo del input-->
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre"><!--placeholder le pone un texto dentro del input-->
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+
+            <!--type email y tel-->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="email">
+
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono" id="tel" placeholder="telefono">
+
+            <input type="checkbox" name="check" id="check" value="JS">
+            <label for="check">Tilda si sabes Js</label>
+
+            <input type="checkbox" name="check" id="check" value="html">
+            <label for="check">Tilda si sabes html</label>
+
+            <input type="checkbox" name="check" id="check" value="css">
+            <label for="check">Tilda si sabes css</label>
+
+            <label for="radio"></label>
+            <input type="radio" name="radio" id="radio">
+
+            <div><textarea name="" id="" cols="30" rows="10"></textarea></div>
+
+            <button type="submit">ENVIAR</button>
+
+            
+        </form>
+
+    </section>
+</body>
+</html>
